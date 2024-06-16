@@ -6,7 +6,46 @@
     <title>Belajar Form</title>
 </head>
 <body>
-    <form action="">
+    <header>
+        <h1>Pudding Custard Caramel</h1>
+    </header>
+    <main>
+        <header>
+            <h2>Bahan Bahan</h2>
+        </header>
+        <section>
+            <p><b>500 lt</b> susu full cream</p>
+            <p><b>4 sdm</b> gula pasir</p>
+            <p><b>4 sdm</b> custard powder</p>
+            <p><b>1 sdt</b> vanilla essence</p>
+            <p><b>1/4 sdt</b> garam</p>
+            <p><b>1 sdt</b> mentega</p>
+        </section>
+        <header>
+            <h2>Bahan Caramel</h2>
+        </header>
+        <section>
+            <p><b>3 sdm</b> gula palem</p>
+            <p><b>2 sdm</b> air</p>
+        </section>
+        <header>
+            <h2>Cara Membuat</h2>
+        </header>
+        <section>
+            <ol>
+                <li>Dalam panci kecil, panaskan susu & gula di api kecil. Aduk sampe gula larut.</li>
+                <li>Di wadah lain, campurkan custard powder dg sedikit susu yg telah dipanaskan. Aduk rata sampe tdk bergerindil. Tuang kembali campuran custard & susu ke panci kecil.
+                </li>
+                <li>Aduk rata di api sedang sampe adonan mengental.</li>
+                <li>Matikan api, masukkan mentega, aduk rata. Diamkan sejenak.</li>
+                <li>Siapkan bahan caramel. Dalam panci kecil panaskan gula dan air di api kecil. Tunggu hingga mendidih tanpa diaduk.</li>
+                <li>Jika warna sudah kecoklatan, matikan api. Goyangkan panci sedikit untuk meratakan adonan caramel.</li>
+                <li>Tuang caramel ke wadah puding. Lalu, tuang dalam cetakan. Tunggu puding set di suhu ruang selama 3-4 jam. Sajikan dingin lebih nikmat.</li>
+            </ol>
+        </section>
+    </main>
+
+    <form action="data.html" method="post">
         <label for="">Nama : </label>
         <input type="text" name="nama" id="nama" required>
 
@@ -31,17 +70,19 @@
         <p>pilih hobi</p>
         <br>
         <input type="checkbox" name="membaca" id="membaca">
-        <label for="">Belajar</label>
+        <label for="membaca">membaca</label>
         
         <input type="checkbox" name="main bola" id="main bola">
-        <label for="">Main Bola</label>
+        <label for=">main bola">main bola</label>
         
         <input type="checkbox" name="berenang" id="berenang">
-        <label for="">Berenang</label>
+        <label for="berenang">berenang</label>
 
-        <select name="profesi" id="profesi">
+    <select name="profesi" id="profesi">
+    <optgroup label="Pilih">
         <option value="murid">murid</option>
         <option value="guru">guru</option>
+    </optgroup>
         <option value="mahasiswa">mahasiswa</option>
     </select>
         
